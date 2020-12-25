@@ -7,12 +7,13 @@
  */
 
 import React from 'react';
-import {SafeAreaView, StatusBar} from 'react-native';
+import {SafeAreaView, StatusBar, ScrollView} from 'react-native';
 
 import Icon from 'react-native-vector-icons/Ionicons';
 
 import HomeScreen from './src/screens/Home';
 import Post from './src/components/Post';
+import feed from './assets/data/feed';
 
 Icon.loadFont();
 
@@ -22,7 +23,11 @@ const App: () => React$Node = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <HomeScreen />
-        <Post />
+        <ScrollView>
+          {feed.map((data) => {
+            return <Post data={data} />;
+          })}
+        </ScrollView>
       </SafeAreaView>
     </>
   );
