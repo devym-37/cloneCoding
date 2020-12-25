@@ -12,6 +12,7 @@ import {SafeAreaView, StatusBar} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 import HomeScreen from './src/screens/Home';
+import Post from './src/components/Post';
 
 Icon.loadFont();
 
@@ -21,6 +22,7 @@ const App: () => React$Node = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <HomeScreen />
+        <Post />
       </SafeAreaView>
     </>
   );

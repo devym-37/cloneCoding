@@ -15,6 +15,7 @@ const HomeScreen = () => {
         <Fontisto name="search" size={25} color={'#f15454'} />
         <Text style={styles.searchButtonText}>Where are you going?</Text>
       </Pressable>
+
       <ImageBackground
         source={require('../../../assets/images/Airbnb_Bali_Bamboo_House.jpg')}
         style={styles.image}>
