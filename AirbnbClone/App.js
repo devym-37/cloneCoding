@@ -14,6 +14,7 @@ import Icon from "react-native-vector-icons/Ionicons";
 import HomeScreen from "./src/screens/Home";
 import SearchResultsScreen from "./src/screens/SearchResults";
 import DestinationSearchScreend from "./src/screens/DestinationSearch";
+import GuestsScreen from "./src/screens/Guests";
 import Post from "./src/components/Post";
 import feed from "./assets/data/feed";
 
@@ -31,7 +32,8 @@ const App: () => React$Node = () => {
           })}
         </ScrollView> */}
         {/* <SearchResultsScreen /> */}
-        <DestinationSearchScreend />
+        {/* <DestinationSearchScreend /> */}
+        <GuestsScreen />
       </SafeAreaView>
     </>
   );
