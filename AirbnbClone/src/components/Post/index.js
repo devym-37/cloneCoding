@@ -2,8 +2,8 @@ import React from 'react';
 import {Text, View, Image} from 'react-native';
 import styles from './styles';
 
-const Post = ({data}) => {
-  const {title, image, bed, bedroom, oldPrice, newPrice, totalPrice} = data;
+const Post = ({data: {item}}) => {
+  const {title, image, bed, bedroom, oldPrice, newPrice, totalPrice} = item;
   return (
     <View style={styles.container}>
       {/* Images */}

@@ -12,6 +12,7 @@ import {SafeAreaView, StatusBar, ScrollView} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 import HomeScreen from './src/screens/Home';
+import SearchResultsScreen from './src/screens/SearchResults';
 import Post from './src/components/Post';
 import feed from './assets/data/feed';
 
@@ -22,12 +23,13 @@ const App: () => React$Node = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <HomeScreen />
+        {/* <HomeScreen />
         <ScrollView>
           {feed.map((data) => {
             return <Post data={data} />;
           })}
-        </ScrollView>
+        </ScrollView> */}
+        <SearchResultsScreen />
       </SafeAreaView>
     </>
   );
