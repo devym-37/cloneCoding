@@ -6,15 +6,16 @@
  * @flow strict-local
  */
 
-import React from 'react';
-import {SafeAreaView, StatusBar, ScrollView} from 'react-native';
+import React from "react";
+import { SafeAreaView, StatusBar, ScrollView } from "react-native";
 
-import Icon from 'react-native-vector-icons/Ionicons';
+import Icon from "react-native-vector-icons/Ionicons";
 
-import HomeScreen from './src/screens/Home';
-import SearchResultsScreen from './src/screens/SearchResults';
-import Post from './src/components/Post';
-import feed from './assets/data/feed';
+import HomeScreen from "./src/screens/Home";
+import SearchResultsScreen from "./src/screens/SearchResults";
+import DestinationSearchScreend from "./src/screens/DestinationSearch";
+import Post from "./src/components/Post";
+import feed from "./assets/data/feed";
 
 Icon.loadFont();
 
@@ -29,7 +30,8 @@ const App: () => React$Node = () => {
             return <Post data={data} />;
           })}
         </ScrollView> */}
-        <SearchResultsScreen />
+        {/* <SearchResultsScreen /> */}
+        <DestinationSearchScreend />
       </SafeAreaView>
     </>
   );

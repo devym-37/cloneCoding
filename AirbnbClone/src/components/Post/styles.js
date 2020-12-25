@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   container: {
@@ -6,14 +6,14 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   image: {
-    width: '100%',
+    width: "100%",
     aspectRatio: 3 / 2,
-    resizeMode: 'cover',
+    resizeMode: "cover",
     borderRadius: 20,
   },
   bedrooms: {
     marginVertical: 10,
-    color: '#5b5b5b',
+    color: "#5b5b5b",
   },
   description: {
     fontSize: 18,
@@ -24,15 +24,15 @@ const styles = StyleSheet.create({
     marginVertical: 10,
   },
   oldPrice: {
-    color: '#5b5b5b',
-    textDecorationLine: 'line-through',
+    color: "#5b5b5b",
+    textDecorationLine: "line-through",
   },
   newPrice: {
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
   totalPrice: {
-    color: '#5b5b5b',
-    textDecorationLine: 'underline',
+    color: "#5b5b5b",
+    textDecorationLine: "underline",
   },
 });
 
