@@ -26,7 +26,7 @@ const HomeTabNavigator = () => {
         component={HomeScreen}
         options={{
           tabBarIcon: ({ color }) => (
-            <FontAwesome name="heart-o" size={25} color={color} />
+            <FontAwesome name="heart" size={25} color={color} />
           ),
         }}
       />
@@ -35,7 +35,7 @@ const HomeTabNavigator = () => {
         component={HomeScreen}
         options={{
           tabBarIcon: ({ color }) => (
-            <FontAwesome5 name="airbnb" size={25} color={color} />
+            <FontAwesome name="tripadvisor" size={25} color={color} />
           ),
         }}
       />
@@ -44,7 +44,7 @@ const HomeTabNavigator = () => {
         component={HomeScreen}
         options={{
           tabBarIcon: ({ color }) => (
-            <Feather name="message-square" size={25} color={color} />
+            <FontAwesome name="sticky-note" size={25} color={color} />
           ),
         }}
       />
@@ -53,7 +53,7 @@ const HomeTabNavigator = () => {
         component={HomeScreen}
         options={{
           tabBarIcon: ({ color }) => (
-            <EvilIcons name="user" size={25} color={color} />
+            <FontAwesome name="user" size={25} color={color} />
           ),
         }}
       />
