@@ -5,6 +5,8 @@ import Fontisto from "react-native-vector-icons/Fontisto";
 import FontAwesome from "react-native-vector-icons/FontAwesome";
 import ExploreNavigator from "./ExploreNavigator";
 
+FontAwesome.loadFont();
+
 const Tab = createBottomTabNavigator();
 
 const HomeTabNavigator = () => {
