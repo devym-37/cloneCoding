@@ -4,6 +4,7 @@ import HomeScreen from "../screens/Home";
 import Fontisto from "react-native-vector-icons/Fontisto";
 import FontAwesome from "react-native-vector-icons/FontAwesome";
 import ExploreNavigator from "./ExploreNavigator";
+import SearchResultsMap from "../screens/SearchResultsMap";
 
 FontAwesome.loadFont();
 
@@ -14,7 +15,7 @@ const HomeTabNavigator = () => {
     <Tab.Navigator tabBarOptions={{ activeTintColor: "#f15454" }}>
       <Tab.Screen
         name={"Explore"}
-        component={ExploreNavigator}
+        component={SearchResultsMap}
         options={{
           tabBarIcon: ({ color }) => (
             <Fontisto name="search" size={25} color={color} />
