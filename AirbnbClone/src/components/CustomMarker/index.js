@@ -4,7 +4,6 @@ import { Marker } from "react-native-maps";
 
 const CustomMarker = (props) => {
   const { coordinate, price, onPress, isSelected } = props;
-  console.log("isSelected", isSelected);
 
   const markerSelectedStyle = useMemo(() => {
     if (isSelected) return [styles.container, { backgroundColor: "black" }];

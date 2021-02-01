@@ -7,7 +7,7 @@ const Post = ({ data }) => {
   const width = useWindowDimensions().width;
 
   return (
-    <View style={(styles.container, { width: width - 60 })}>
+    <View style={[styles.container, { width: width - 60 }]}>
       <View style={styles.innerContainer}>
         {/* Images */}
         <Image
