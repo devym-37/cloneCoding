@@ -1,6 +1,11 @@
-# Airbnb_clone
+# Clone Coding
+클론 코딩으로 스터디
 
-## Use Stack
+---
+
+### 1. Airbnb clone
+
+#### Use Stack
 
 - React Native
 - Javascript
