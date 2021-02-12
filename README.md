@@ -11,3 +11,12 @@
 - Javascript
 - React Navigation v5
 - Vector Icons
+---
+### 2. Spotify clone
+
+#### Use Stack
+
+- React Native / Expo
+- Javascript
+- Typescript
+- React Navigation v5
