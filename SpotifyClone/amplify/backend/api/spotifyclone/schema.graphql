@@ -4,14 +4,14 @@ type AlbumCategory @model {
   albums: [Album] @connection(keyName: "byAlbumCategory", fields: ["id"])
 }
 
-type Album @model @key(name: "byAlbumCategory", fields: ["byAlbumCategoryId"]) {
+type Album @model @key(name: "byAlbumCategory", fields: ["albumCategoryId"]) {
   id: ID!
   name: String!
   by: String!
   numberOfLikes: Int!
   imageUri: String!
   artistsHeadline: String!
-  songs: [Songs] @connection(keyName: "byAlbum", fields: ["id"])
+  songs: [Song] @connection(keyName: "byAlbum", fields: ["id"])
 
   albumCategoryId: ID!
   albumCategory: AlbumCategory @connection(fields: ["albumCategoryId"])

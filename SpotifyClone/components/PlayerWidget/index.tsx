@@ -7,7 +7,7 @@ import { Audio } from 'expo-av';
 const song = {
   id: '2',
   uri:
-    'https://not-just-trash.s3-eu-west-1.amazonaws.com/WhatsApp+Audio+2020-09-22+at+14.20.25.mp4',
+    'https://not-just-trash.s3-eu-west-1.amazonaws.com/WhatsApp+Audio+2020-09-21+at+15.14.25.mp4',
   imageUri:
     'https://cdn6.f-cdn.com/contestentries/1485199/27006121/5ca3e39ced7f1_thumb900.jpg',
   title: 'Lorem Ipsum',
